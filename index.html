@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalabe=no">
+
+    <!-------Title--------->
+    <title>Tech blog </title>
+
+    <!-------Stylesheet--------->
+    <link rel="stylesheet" href="css/style.css"/> 
+
+    <!-------fav-icon--------->
+    <link rel="shortcut icon" href="images/favicon.png"/> 
+
+    <!-------Montserrat fonts--------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>    
+
+    <!--------------Blog section----------------------------->
+    <section id="blog">
+        <!--------------Heading----------------------------->
+        <div class="blog-heading">
+            <span>Publicaciones recientes</span>
+            <h3>Mi blog</h3>
+
+        </div>
+
+        <section class="section pb-0" id=about>
+            <div class=container>
+                
+                    <div class=col-lg-2-1><img src=images/avatar.png class="img-fluid rounded-lg mb-4" alt></div>
+
+                    <h1 class="display-1">Autor</h1>
+                            <p class="text-author-description">Carlos Barros |  Ingeniero de datos</p>
+                            <p align="center">
+                                <a href="articles/author.html" class="button blue">Perfil completo</a>
+                            </p>
+                                        
+                    
+                </div>
+        </section>
+        
+        <!--------------Blog Container----------------------------->
+        <div class="blog-container">
+
+            <!--------------box-1----------------------------->
+            <div class="blog-box"> 
+                <!------imagen----->
+                <div class="blog-img">
+                    <img src="images/html.jpg" alt="Blog">
+                </div>
+
+                <!------imagen----->
+                <div class="blog-text">
+                    <span> 25 de octubre de 2022 / Diseño web</span>
+                    <a href="articles/article_html.html" class="blog-title">BREVE HISTORIA DE HMTL</a>
+                    <p>HTML5 es la versión más reciente de HTML . El término se refiere a dos cosas. Uno es el propio lenguaje HTML actualizado, que tiene nuevos elementos y atributos.</p>
+                    <a href="articles/article_html.html">Leer más</a>
+                </div>
+            </div>
+           
+            
+            <!--------------box-2----------------------------->
+            <div class="blog-box"> 
+                <!------imagen----->
+                <div class="blog-img">
+                    <img src="images/css.jpg" alt="Blog">
+                </div>
+
+                <!------imagen----->
+                <div class="blog-text">
+                    <span> 25 de octubre de 2022 / Diseño web</span>
+                    <a href="articles/article_css.html" class="blog-title"> DIFERENTES TRANSICCIONES DE CSS</a>
+                    <p>CSS le permite crear páginas web atractivasCSS (hojas de estilo en cascada, por sus siglas en ingles Cascading Style Sheets) le permite crear páginas web atractivas</p>
+                    <a href="articles/article_css.html">Leer más</a>
+                </div>
+            </div>
+
+            <!--------------box-3----------------------------->
+            <div class="blog-box"> 
+                <!------imagen----->
+                <div class="blog-img">
+                    <img src="images/javascript.jpg" alt="Blog">
+                </div>
+
+                <!------imagen----->
+                <div class="blog-text">
+                    <span> 25 de octubre de 2022 / Diseño web</span>
+                    <a href="articles/article_javascript.html" class="blog-title"> EL PODER DE JAVASCRIPT</a>
+                    <p>JavaScript es un lenguaje de secuencias de comandos o programación que le permite implementar funciones complejas en páginas web; cada vez que una página web hace algo más que sentarse allí</p>
+                    <a href="articles/article_javascript.html">Leer más</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- formulario de contacto en html y css -->  
+
+	<div class="contact_form">
+
+		<div class="formulario">
+            <h1 class="heading-formulario">Formulario de contacto</h1>
+				<h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+                <form action="submeter-formulario.php" method="post">
+						
+                <p>
+                    <label for="nombre" class="colocar_nombre">Nombre
+                        <span class="obligatorio">*</span>
+                    </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+            
+                <p>
+                    <label for="email" class="colocar_email">Email
+                        <span class="obligatorio">*</span>
+                    </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+
+                <p>
+                    <label for="fecha-nacimiento" class="colocar_website">Fecha de nacimiento
+                    </label>
+                        <input type="date" name="introducir_website" id="website" placeholder="Selecciona su fecha de nacimiento">
+                </p>	
+        
+                <p>
+                    <label for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>		
+            
+                	
+            
+                <p>
+                    <label for="asunto" class="colocar_asunto">Asunto
+                        <span class="obligatorio">*</span>
+                    </label>
+                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>		
+            
+                <p>
+                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                        <span class="obligatorio">*</span>
+                    </label>                     
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>	  								
+            
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                    <span class="obligatorio"> * </span>Los campos son obligatorios.
+                </p>					
+        
+    </form>
+		</div>	
+	</div>
+
+
+</body>
+</html>
