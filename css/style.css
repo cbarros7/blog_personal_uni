@@ -10,7 +10,6 @@ a{
     text-decoration: none;
 }
 
-
 ul{
     list-style: none;
 }
@@ -170,21 +169,6 @@ body{
   }
 }
 
-img.img2__left {
-  float: left;
-  margin: 5px;
-  width: 200px;
-  height: 200px;
-
-}
-
-img.img2__rigth{
-  float: right;
-  margin: 5px;
-  width: 200px;
-  height: 200px;
-
-}
 
 /*---- Article ----- */
 #article{
@@ -369,6 +353,7 @@ ul.list-article{
 
 }
 
+
 /*Formulario*/
 
 .contact_form{	
@@ -436,7 +421,6 @@ button{
 
 button p{
 	color: #fff; 
-
 }
 
 
