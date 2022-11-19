@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Programas en JavaScript</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-------Montserrat fonts--------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <div class="header">
+      <a href="index.html" class="logo">Tech Blog</a>
+      <div class="header-right">
+        <a class="active" href="index.html">Inicio</a>
+        <a href="./index.html/#contact">Contacto</a>
+        <a href="articles/author.html">Acerca</a>
+        <a href="programs.html">AJAX</a>
+      </div>
+    </div> /
+
+    <div class="container-javascript">
+      <div class="container-program"> 
+        <div class="wrapper">
+          <header>
+            <h1>Validador de palíndromos</h1>
+            <p>Un palíndromo es una palabra o frase que se lee igual al revés que al derecho, por ejemplo: level, refer.</p>
+          </header>
+          <div class="inputs">
+            <input type="text" name="text-palindromo" spellcheck="false" placeholder="Ingrese el texto">
+            <button id="btn-palindromo">Validar Palíndromo</button>
+          </div>
+          <p class="info-txt-palindromo" id="info-text"></p>
+        </div>
+
+        <div class="container-program">
+
+          <div class="wrapper" id="CompararNunmeros">
+            <header>
+              <h1>Encuentra número mayor</h1>
+              <p>Digite dos números. El programa le especifica cual es el número mayor.</p>
+            </header>
+            <div class="inputs">
+              <p>Primer número:</p>
+              <input type="number" id="num1" name="num1">
+              
+              <p>Segundo número:</p>
+              <input type="number" id="num2" name="num2">
+              <button id="btn-comparaNumeros">Resultado</button>
+              
+            </div>
+            <p class="info-txt-CompararNumeros" id="info-text"></p>
+            </div>
+    
+          </div>
+        </div>
+      </div>
+   
+    
+    <div class="container-javascript">
+    <div class="container-program"> 
+      <div class="wrapper" id="VocalesEnTexto">
+        <header>
+          <h1>Buscador de vocales</h1>
+          <p>Escriba una frase que el programa se encaga de buscar las vocales.</p>
+        </header>
+        <div class="inputs">
+          <input type="text" name="text-vocalesentexto" spellcheck="false" placeholder="Ingrese el texto">
+          <button id="btn-vocalesentexto">Validar Vocales</button>
+        </div>
+        <p class="info-txt-vocales" id="info-text"></p>
+      </div>
+
+      <div class="container-program">
+
+        <div class="wrapper" id="VocalesCounter">
+          <header>
+            <h1>Contador de vocales</h1>
+            <p>Escriba una frase que el programa cuenta en número de vocales que existen.</p>
+          </header>
+          <div class="inputs">
+            <input type="text" name="text-vocalescounter" spellcheck="false" placeholder="Ingrese el texto">
+            <button id="btn-vocalescounter">Validar Vocales</button>
+          </div>
+          <p class="info-txt-vocalesCounter" id="info-text"></p>
+        </div>
+      </div>
+    
+    </div>
+    
+  </div>
+
+  <form action="#">
+    URL:
+    <input type="text" id="recurso" size="70" />
+    <input type="button" id="enviar" value="Mostrar contenidos" />
+  </form>
+
+  <div id="principal">
+    <h2>Contenidos del archivo:</h2>
+    <div id="contenidos"></div>
+    
+    <br>
+    <h2>Cabeceras HTTP de la respuesta del servidor:</h2>
+    <div id="cabeceras"></div>
+  </div>
+
+  <div id="secundario">
+    <h2>Estados de la petición:</h2>
+    <div id="estados"></div>
+
+    <h2>Código de estado:</h2>
+    <div id="codigo"></div>
+  </div>
+
+    <script src="./js/script.js"></script>  
+  </body>
+
+</html>
